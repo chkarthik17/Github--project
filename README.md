@@ -38,39 +38,6 @@ A backend service for analyzing GitHub profiles and generating insights. Built a
 - **External API**: GitHub REST API v3
 - **Libraries**: Axios, dotenv, CORS
 
-## Database Schema
-
-```sql
-github_profiles
-├── id (Primary Key)
-├── github_id (Unique)
-├── username (Unique)
-├── name
-├── bio
-├── company
-├── location
-├── email
-├── blog
-├── twitter_username
-├── public_repos
-├── public_gists
-├── followers
-├── following
-├── total_stars
-├── total_forks
-├── most_starred_repo
-├── most_starred_repo_stars
-├── analysis_score
-├── developer_level (ENUM)
-├── popularity_score
-├── profile_url
-├── avatar_url
-├── account_created_at
-├── account_updated_at
-├── analyzed_at
-└── last_updated
-```
-
 ## Installation & Setup
 
 ### Prerequisites
