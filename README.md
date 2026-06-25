@@ -319,7 +319,7 @@ Create a Postman collection with these requests:
 
 ## Deployment
 
-### Option 1: Render.com (Recommended)
+ Render.com 
 
 1. Push code to GitHub
 2. Create new Web Service on Render
@@ -327,20 +327,10 @@ Create a Postman collection with these requests:
 4. Add environment variables
 5. Deploy
 
-### Option 2: Railway.app
-
-1. Push code to GitHub
-2. Create new project on Railway
-3. Connect repository
-4. Add MySQL database
-5. Configure environment variables
-6. Deploy
-
 ### Database Hosting
 
-- **PlanetScale**: Free MySQL hosting
-- **Aiven**: Free tier available
-- **Railway**: Includes database
+- **TiDB**: Free MySQL hosting
+- **rendor**: Free tier available
 
 ## Error Handling
 
@@ -370,23 +360,5 @@ The API handles various error scenarios:
 - [ ] Add more GitHub metrics (contributions, issues, PRs)
 - [ ] Implement search functionality
 - [ ] Add profile comparison feature
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
-
-## License
-
-ISC
-
-## Author
-
-Karthik
-
-## Support
-
-For issues and questions, please create an issue on GitHub.
-
----
 
 **Built with ❤️ using Node.js, Express, and MySQL**
